@@ -60,10 +60,11 @@ const TweetInput = () => {
         username: user.displayName,
       });
     }
-  };
   setTweetImage(null);
   setTweetMsg("");
 
+  };
+  
   return (
     <>
      <form onSubmit={sendTweet}>
